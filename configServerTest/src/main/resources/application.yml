@@ -1,0 +1,14 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wifior/config-repo.git    #仓库地址
+      label: master #配置仓库的分支
+logging:
+  level:
+    root: debug
