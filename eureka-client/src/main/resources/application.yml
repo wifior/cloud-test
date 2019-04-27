@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: eureka-client #application处显示的名字
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8082/eureka/
+  instance:
+    prefer-ip-address: true #status处点击后显示ip
+    instance-id: eureka-client-id    #status处显示的名字
