@@ -7,8 +7,11 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/wifior/config-repo.git    #仓库地址
-      label: master #配置仓库的分支
+          uri: https://github.com/wifior/config-repo.git
 logging:
   level:
     root: debug
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8082/eureka
