@@ -10,10 +10,12 @@
         <module name="configTest" />
         <module name="eureka-client" />
         <module name="eureka-server" />
+        <module name="zuul-module" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eurekaserver" target="1.7" />
+      <module name="zuulmodule" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -23,6 +25,8 @@
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="zuul-module" options="-parameters" />
+      <module name="zuulmodule" options="-parameters" />
     </option>
   </component>
 </project>

@@ -15,6 +15,7 @@
        <module>../configTest</module>
        <module>../eureka-client</module>
        <module>../eureka-server</module>
+       <module>../zuul-module</module>
    </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
